@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh '/Users/dungngo.mac/Katalon Runtime Engine/execute-katalon-tests.sh'
+                sh '/Users/dungngo.mac/KatalonRuntimeEngine/execute-katalon-tests.sh'
             }
         }
     }
